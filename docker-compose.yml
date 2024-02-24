@@ -1,0 +1,38 @@
+services:
+  frontend:
+    container_name: frontend
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    working_dir: /app
+    networks:
+      crux:
+        ipv4_address: 10.5.0.5
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://10.5.0.6:8000
+
+  backend:
+    container_name: backend
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      crux:
+        ipv4_address: 10.5.0.6
+
+networks:
+  crux:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1

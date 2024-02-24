@@ -1,0 +1,89 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-section,
+.sign-in-section {
+    padding: 20px;
+}
+
+.welcome-section {
+    flex: 1;
+    max-width: 60%;
+}
+
+.sign-in-section {
+    flex: 1;
+    max-width: 40%;
+}
+
+.join-now-btn,
+.sign-in-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.sign-in-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-box h2 {
+    margin-bottom: 20px;
+}
+
+.sign-in-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.forgot-password {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.or-continue-with {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons span {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+
+    .welcome-section,
+    .sign-in-section {
+        max-width: 100%;
+    }
+}

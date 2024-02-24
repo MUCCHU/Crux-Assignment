@@ -1,0 +1,978 @@
+{
+    "data": {
+        "certifications": [],
+        "dateOfBirth": null,
+        "education": [
+            {
+                "id": 53319655,
+                "organization": "University of Central Arkansas",
+                "accreditation": {
+                    "education": "Bachelor of Science",
+                    "educationLevel": "bachelors",
+                    "inputStr": "Bachelor of Science,",
+                    "matchStr": ""
+                },
+                "grade": {
+                    "raw": "4.0",
+                    "value": "4.0",
+                    "metric": null
+                },
+                "location": null,
+                "dates": {
+                    "startDate": null,
+                    "completionDate": "2013-01-01",
+                    "isCurrent": false,
+                    "rawText": "2013"
+                }
+            }
+        ],
+        "emails": [
+            "contact@charlesstover.com"
+        ],
+        "location": null,
+        "name": {
+            "raw": "Charles Stover",
+            "last": "Stover",
+            "first": "Charles",
+            "title": "",
+            "middle": ""
+        },
+        "objective": "",
+        "phoneNumbers": [
+            "(920) 786-8379"
+        ],
+        "phoneNumberDetails": [
+            {
+                "rawText": "(920) 786-8379",
+                "formattedNumber": "+1 920-786-8379",
+                "countryCode": "US",
+                "internationalCountryCode": 1,
+                "nationalNumber": "(920) 786-8379"
+            }
+        ],
+        "publications": [],
+        "referees": [],
+        "sections": [
+            {
+                "bbox": [
+                    39.828003,
+                    23.599976,
+                    572.58997,
+                    35.743958
+                ],
+                "text": "Charles Stover (920) 786-8379 \u00b7 contact@charlesstover.com \u00b7 https://charlesstover.com",
+                "pageIndex": 0,
+                "sectionType": "PersonalDetails"
+            },
+            {
+                "bbox": [
+                    36.489998,
+                    60.947998,
+                    533.93,
+                    92.58002
+                ],
+                "text": "Summary Staff+ front end engineer (tech lead, architect) with an expertise in monitoring, operations, TypeScript, and React.",
+                "pageIndex": 0,
+                "sectionType": "Summary"
+            },
+            {
+                "bbox": [
+                    36.508,
+                    102.599976,
+                    555.65,
+                    149.47003
+                ],
+                "text": "Skills \u2022 Expert: CloudWatch, CSS3, ES6, Git, HTML5, JavaScript, Jest, Node, NPM, React, Redux, TypeScript, Yarn \u2022 Proficient: AWS, Chai, Docker, Express, Mocha, nginx, PHP, React Native, Rollup, SASS, SQL, Webpack",
+                "pageIndex": 0,
+                "sectionType": "Skills/Interests/Languages"
+            },
+            {
+                "bbox": [
+                    36.856,
+                    159.74396,
+                    574.2899,
+                    521.52
+                ],
+                "text": "Projects \u2022 2022 \u2013 Coalition broker sales platform \u2013 I established and documented the on-call, operational audit, and technical lead processes. I standardized and distributed front end monitoring packages and CI/CD templates across six applications, three dependency repositories, and all front end teams for all acquired organizations. These actions led to a reduction in application error rates by an average of 90% in 3 months. \u2022 2021 \u2013 CloudWatch Container Insights, Contributor Insights, Lambda Insights, Logs, and Logs Insights consoles \u2013 I unified and unblocked cross-continental teams; created reusable components, utilities, and monitoring software that spanned multiple AWS services; improved CloudWatch's application monitoring with queryable log events; migrated availability monitoring to a fully cloud-native infrastructure, decreasing false alarms; wrote foundation code that allowed my team to double the number of offered dashboards; and resulted in a 20x larger user base. \u2022 2020 \u2013 ReactN \u2013 I open-sourced an extension of React that offers a boilerplate-free, intuitive global state management solution that, at its peak, received over 8,000 weekly installations, totaling half a million downloads. \u2022 2018 \u2013 Asset Protection Hub \u2013 I led full-stack development for the Asset Protection team in React and Node; built the front end using Redux, Material UI, visualizations, and form data entry; and built the back end as a REST API with Express routing, SQL Server, custom data compression, and dynamically generated PDFs. \u2022 2017 \u2013 Innovation Challenge \u2013 I won first place in the ConocoPhillips Innovation Challenge Hackathon by mapping 360-degrees of obstructions as scanned by a remote-controlled robot to a web interface. \u2022 2016 \u2013 CSPage PHP \u2013 I automated web page optimization by caching, compressing, concatenating, and otherwise optimizing HTML, CSS, JavaScript, and static file content distribution; supported HTML and CSS variables and custom <if>/<else> and <foreach> HTML tags; and cached both static and dynamic files. \u2022 2012 \u2013 RPG Engine \u2013 I wrote a browser-based RPG overworld engine programmed entirely in HTML 4, CSS 2, and JavaScript; used sprite sheets and user input to animate highly customizable game settings and action-triggered events; and maintained backwards compatibility for Internet Explorer 6.",
+                "pageIndex": 0,
+                "sectionType": "Projects"
+            },
+            {
+                "bbox": [
+                    36.303997,
+                    531.7,
+                    569.593,
+                    753.12
+                ],
+                "text": "Work Experience Senior front end engineer Coalition, Inc. 2021 \u2013 Present Senior front end engineer Amazon Web Services, Seattle, WA 2019 \u2013 2021 \u2022 Migrated my team's products to operational independence. \u2022 Scoped, estimated, tracked, and delegated five cross-team products end-to-end. \u2022 Actively engaged customers and product managers to better understand and improve products. \u2022 Wrote significant portion of code foundation, allowing team to reuse and rapidly iterate features. \u2022 Improved availability, performance, and customer experience monitoring; and automated localization. Walmart I.T. consultant Kitestring, Bentonville, AR 2017 \u2013 2019 \u2022 Developed software and mentored peers on three teams using React (+Native), Redux, Node, Express, MSSQL. Technical author 2010 \u2013 Present \u2022 Published articles on career growth and front end technologies, focusing on JavaScript and React. \u2022 https://charlesstover.com/publications Freelance 2006 \u2013 2017 \u2022 Offered end-to-end customer engagement for and delivery of open-source and proprietary software.",
+                "pageIndex": 0,
+                "sectionType": "WorkExperience"
+            },
+            {
+                "bbox": [
+                    36.39,
+                    755.5,
+                    573.17004,
+                    787.32
+                ],
+                "text": "Education Bachelor of Science, 4.0 GPA University of Central Arkansas, 2013",
+                "pageIndex": 0,
+                "sectionType": "Education"
+            }
+        ],
+        "skills": [
+            {
+                "id": 573686334,
+                "emsiId": "KS121F45VPV8C9W3QFYH",
+                "name": "Cascading Style Sheets (CSS)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686335,
+                "emsiId": "KS127D361PF0FTXDZ7C4",
+                "name": "Operations",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Summary",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686336,
+                "emsiId": "KSY4WFI1S164RQUBSPCC",
+                "name": "Docker (Software)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686337,
+                "emsiId": "KS123X777H5WFNXQ6BPM",
+                "name": "Sales",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686339,
+                "emsiId": "KS4420H75G906GRK0QJZ",
+                "name": "Web Services",
+                "lastUsed": "2021-01-01",
+                "numberOfMonths": 24,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 102567630
+                    }
+                ]
+            },
+            {
+                "id": 573686340,
+                "emsiId": "KS127126GR4WQYW9LXCW",
+                "name": "Nginx",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686341,
+                "emsiId": "KS121XY6VSGJ3Z6J82FQ",
+                "name": "Infrastructure",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686342,
+                "emsiId": "KS1253H61TTR1FZWSRH4",
+                "name": "Innovation",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686343,
+                "emsiId": "KSNN50D66OYMYRMNXT2Z",
+                "name": "Dynamically Generated",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686344,
+                "emsiId": "KS1200C5XQWW78VQ5ZYL",
+                "name": "PHP (Scripting Language)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686345,
+                "emsiId": "KSIG41WVX80GXH8M6BQ8",
+                "name": "Backwards Compatibility",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686346,
+                "emsiId": "KS1285560X98N1K0Y73D",
+                "name": "Proprietary Software",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686347,
+                "emsiId": "KS122KN6ZSYRTCKTQHNT",
+                "name": "Sprite (Computer Graphics Data Structures)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686348,
+                "emsiId": "KS120RM619V18NJXTHV1",
+                "name": "HTML5",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686350,
+                "emsiId": "KS1208P6ZMZ4N872Y7X5",
+                "name": "Application Programming Interface (API)",
+                "lastUsed": "2021-01-01",
+                "numberOfMonths": 24,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 102567630
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686351,
+                "emsiId": "KS120FG6YP8PQYYNQY9B",
+                "name": "Amazon Web Services",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686352,
+                "emsiId": "KS1200578T5QCYT0Z98G",
+                "name": "HyperText Markup Language (HTML)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686353,
+                "emsiId": "KSPSGF5MXB6568UIQ4BK",
+                "name": "React Native",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686354,
+                "emsiId": "KS1200771D9CR9LB4MWW",
+                "name": "JavaScript (Programming Language)",
+                "lastUsed": "2024-02-22",
+                "numberOfMonths": 170,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 3,
+                        "workExperienceId": 102567632
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 3,
+                        "workExperienceId": 102567632
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686356,
+                "emsiId": "ESFEFEFDBA0B3BC39881",
+                "name": "SASS",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686357,
+                "emsiId": "KS440W865GC4VRBW6LJP",
+                "name": "SQL (Programming Language)",
+                "lastUsed": "2019-01-01",
+                "numberOfMonths": 24,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 102567631
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 102567631
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686358,
+                "emsiId": "KS1226K6T18SRM078HLM",
+                "name": "Reduction (Complexity)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686360,
+                "emsiId": "KS120PL67S4BQTP8NP8L",
+                "name": "Asset Protection",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686361,
+                "emsiId": "KS9PER4I6KKANM24GU6N",
+                "name": "Rollup",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686364,
+                "emsiId": "KS1218W78FGVPVP2KXPX",
+                "name": "Management",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686367,
+                "emsiId": "KSIDDB2VJJYDU67905S9",
+                "name": "Webpack",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686368,
+                "emsiId": "KS122NY60HCYYDXHQGQN",
+                "name": "Data Entry",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686338,
+                "emsiId": "KS121JM6QL5CGM2LSDS9",
+                "name": "Customer Experience",
+                "lastUsed": "2021-01-01",
+                "numberOfMonths": 24,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 102567630
+                    }
+                ]
+            },
+            {
+                "id": 573686349,
+                "emsiId": "KS1264T6TLZK1C00MQX3",
+                "name": "Mapping",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686355,
+                "emsiId": "KS7G86B5WGBXJ6DDGRV1",
+                "name": "Compression",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686359,
+                "emsiId": "KS7G1P76W2FRM88BQFJN",
+                "name": "Templates",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686362,
+                "emsiId": "KS441LF7187KS0CV4B6Y",
+                "name": "TypeScript",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Summary",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Summary",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686363,
+                "emsiId": "KS6840J6LR0TLQ86LZJC",
+                "name": "Front End (Software Engineering)",
+                "lastUsed": "2024-02-22",
+                "numberOfMonths": 194,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 102567630
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 3,
+                        "workExperienceId": 102567632
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Summary",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686365,
+                "emsiId": "KST6CKUF22USV3NQO9UH",
+                "name": "Availability Monitoring",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 573686366,
+                "emsiId": "KS1226W6L3HK20VBL2KX",
+                "name": "Data Compression",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            }
+        ],
+        "languages": [
+            "English"
+        ],
+        "summary": "Staff+ front end engineer (tech lead, architect) with an expertise in monitoring, operations, TypeScript, and React.",
+        "websites": [
+            "https://charlesstover.com/publications"
+        ],
+        "linkedin": null,
+        "totalYearsExperience": 14,
+        "profession": "Technical Engineer",
+        "workExperience": [
+            {
+                "id": 102567629,
+                "jobTitle": "engineer",
+                "organization": "Coalition, Inc.",
+                "location": null,
+                "dates": {
+                    "startDate": "2021-01-01",
+                    "endDate": "2024-02-22",
+                    "monthsInPosition": 38,
+                    "isCurrent": true,
+                    "rawText": "2021 \u2013 Present"
+                },
+                "jobDescription": "",
+                "occupation": {
+                    "jobTitle": "engineer",
+                    "jobTitleNormalized": "Engineer",
+                    "classification": {
+                        "socCode": 5242,
+                        "title": "Telecoms and related network installers and repairers",
+                        "minorGroup": "Electrical and Electronic Trades",
+                        "subMajorGroup": "SKILLED METAL, ELECTRICAL AND ELECTRONIC TRADES",
+                        "majorGroup": "SKILLED TRADES OCCUPATIONS",
+                        "minorGroupCode": 524,
+                        "subMajorGroupCode": 52,
+                        "majorGroupCode": 5
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ET6B8D6F47159FDBE4"
+                }
+            },
+            {
+                "id": 102567630,
+                "jobTitle": "Senior front end engineer",
+                "organization": "Amazon Web Services",
+                "location": {
+                    "formatted": "Seattle, WA, USA",
+                    "streetNumber": null,
+                    "street": null,
+                    "apartmentNumber": null,
+                    "city": "Seattle",
+                    "postalCode": null,
+                    "state": "Washington",
+                    "country": "United States",
+                    "rawInput": "Seattle, WA",
+                    "countryCode": "US",
+                    "latitude": 47.6062095,
+                    "longitude": -122.3320708,
+                    "poBox": null
+                },
+                "dates": {
+                    "startDate": "2019-01-01",
+                    "endDate": "2021-01-01",
+                    "monthsInPosition": 24,
+                    "isCurrent": false,
+                    "rawText": "2019 \u2013 2021"
+                },
+                "jobDescription": "\u2022 Migrated my team's products to operational independence. \n\u2022 Scoped, estimated, tracked, and delegated five cross-team products end-to-end. \n\u2022 Actively engaged customers and product managers to better understand and improve products. \n\u2022 Wrote significant portion of code foundation, allowing team to reuse and rapidly iterate features. \n\u2022 Improved availability, performance, and customer experience monitoring; and automated localization. ",
+                "occupation": {
+                    "jobTitle": "Senior front end engineer",
+                    "jobTitleNormalized": "Front End Engineer",
+                    "classification": {
+                        "socCode": 2134,
+                        "title": "Programmers and software development professionals ",
+                        "minorGroup": "Information Technology Professionals",
+                        "subMajorGroup": "SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS",
+                        "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                        "minorGroupCode": 213,
+                        "subMajorGroupCode": 21,
+                        "majorGroupCode": 2
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ETF938F6ABB8A218FE"
+                }
+            },
+            {
+                "id": 102567631,
+                "jobTitle": "",
+                "organization": "Kitestring",
+                "location": {
+                    "formatted": "Bentonville, AR, USA",
+                    "streetNumber": null,
+                    "street": null,
+                    "apartmentNumber": null,
+                    "city": "Bentonville",
+                    "postalCode": null,
+                    "state": "Arkansas",
+                    "country": "United States",
+                    "rawInput": "Bentonville, AR",
+                    "countryCode": "US",
+                    "latitude": 36.3728538,
+                    "longitude": -94.2088172,
+                    "poBox": null
+                },
+                "dates": {
+                    "startDate": "2017-01-01",
+                    "endDate": "2019-01-01",
+                    "monthsInPosition": 24,
+                    "isCurrent": false,
+                    "rawText": "2017 \u2013 2019"
+                },
+                "jobDescription": "\u2022 Developed software and mentored peers on three teams using React (+Native), Redux, Node, Express, MSSQL. ",
+                "occupation": {
+                    "jobTitle": "",
+                    "jobTitleNormalized": null,
+                    "classification": null,
+                    "managementLevel": null,
+                    "emsiId": null
+                }
+            },
+            {
+                "id": 102567632,
+                "jobTitle": "Technical author",
+                "organization": null,
+                "location": null,
+                "dates": {
+                    "startDate": "2010-01-01",
+                    "endDate": "2024-02-22",
+                    "monthsInPosition": 170,
+                    "isCurrent": true,
+                    "rawText": "2010 \u2013 Present"
+                },
+                "jobDescription": "\u2022 Published articles on career growth and front end technologies, focusing on JavaScript and React. \n\u2022 https://charlesstover.com/publications ",
+                "occupation": {
+                    "jobTitle": "Technical author",
+                    "jobTitleNormalized": "Technical Author",
+                    "classification": {
+                        "socCode": 3412,
+                        "title": "Authors, writers and translators",
+                        "minorGroup": "Artistic, Literary and Media Occupations",
+                        "subMajorGroup": "CULTURE, MEDIA AND SPORTS OCCUPATIONS",
+                        "majorGroup": "ASSOCIATE PROFESSIONAL OCCUPATIONS",
+                        "minorGroupCode": 341,
+                        "subMajorGroupCode": 34,
+                        "majorGroupCode": 3
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ET9658342D84CB6E94"
+                }
+            }
+        ],
+        "headShot": null,
+        "isResumeProbability": 99,
+        "rawText": "Charles Stover (920) 786-8379 \u00b7 contact@charlesstover.com \u00b7 https://charlesstover.com\nSummary Staff+ front end engineer (tech lead, architect) with an expertise in monitoring, operations, TypeScript, and React.\nSkills \u2022 Expert: CloudWatch, CSS3, ES6, Git, HTML5, JavaScript, Jest, Node, NPM, React, Redux, TypeScript, Yarn \u2022 Proficient: AWS, Chai, Docker, Express, Mocha, nginx, PHP, React Native, Rollup, SASS, SQL, Webpack\nProjects \u2022 2022 \u2013 Coalition broker sales platform \u2013 I established and documented the on-call, operational audit, and technical lead processes. I standardized and distributed front end monitoring packages and CI/CD templates across six applications, three dependency repositories, and all front end teams for all acquired organizations. These actions led to a reduction in application error rates by an average of 90% in 3 months. \u2022 2021 \u2013 CloudWatch Container Insights, Contributor Insights, Lambda Insights, Logs, and Logs Insights consoles \u2013 I unified and unblocked cross-continental teams; created reusable components, utilities, and monitoring software that spanned multiple AWS services; improved CloudWatch's application monitoring with queryable log events; migrated availability monitoring to a fully cloud-native infrastructure, decreasing false alarms; wrote foundation code that allowed my team to double the number of offered dashboards; and resulted in a 20x larger user base. \u2022 2020 \u2013 ReactN \u2013 I open-sourced an extension of React that offers a boilerplate-free, intuitive global state management solution that, at its peak, received over 8,000 weekly installations, totaling half a million downloads. \u2022 2018 \u2013 Asset Protection Hub \u2013 I led full-stack development for the Asset Protection team in React and Node; built the front end using Redux, Material UI, visualizations, and form data entry; and built the back end as a REST API with Express routing, SQL Server, custom data compression, and dynamically generated PDFs. \u2022 2017 \u2013 Innovation Challenge \u2013 I won first place in the ConocoPhillips Innovation Challenge Hackathon by mapping 360-degrees of obstructions as scanned by a remote-controlled robot to a web interface. \u2022 2016 \u2013 CSPage PHP \u2013 I automated web page optimization by caching, compressing, concatenating, and otherwise optimizing HTML, CSS, JavaScript, and static file content distribution; supported HTML and CSS variables and custom <if>/<else> and <foreach> HTML tags; and cached both static and dynamic files. \u2022 2012 \u2013 RPG Engine \u2013 I wrote a browser-based RPG overworld engine programmed entirely in HTML 4, CSS 2, and JavaScript; used sprite sheets and user input to animate highly customizable game settings and action-triggered events; and maintained backwards compatibility for Internet Explorer 6.\nWork Experience Senior front end engineer Coalition, Inc. 2021 \u2013 Present Senior front end engineer Amazon Web Services, Seattle, WA 2019 \u2013 2021 \u2022 Migrated my team's products to operational independence. \u2022 Scoped, estimated, tracked, and delegated five cross-team products end-to-end. \u2022 Actively engaged customers and product managers to better understand and improve products. \u2022 Wrote significant portion of code foundation, allowing team to reuse and rapidly iterate features. \u2022 Improved availability, performance, and customer experience monitoring; and automated localization. Walmart I.T. consultant Kitestring, Bentonville, AR 2017 \u2013 2019 \u2022 Developed software and mentored peers on three teams using React (+Native), Redux, Node, Express, MSSQL. Technical author 2010 \u2013 Present \u2022 Published articles on career growth and front end technologies, focusing on JavaScript and React. \u2022 https://charlesstover.com/publications Freelance 2006 \u2013 2017 \u2022 Offered end-to-end customer engagement for and delivery of open-source and proprietary software.\nEducation Bachelor of Science, 4.0 GPA University of Central Arkansas, 2013",
+        "redactedText": "******* ****** ***** ******** \u00b7 ************************* \u00b7 *************************\nSummary Staff+ front end engineer (tech lead, architect) with an expertise in monitoring, operations, TypeScript, and React.\nSkills \u2022 Expert: CloudWatch, CSS3, ES6, Git, HTML5, JavaScript, Jest, Node, NPM, React, Redux, TypeScript, Yarn \u2022 Proficient: AWS, Chai, Docker, Express, Mocha, nginx, PHP, React Native, Rollup, SASS, SQL, Webpack\nProjects \u2022 **** \u2013 Coalition broker sales platform \u2013 I established and documented the on-call, operational audit, and technical lead processes. I standardized and distributed front end monitoring packages and CI/CD templates across six applications, three dependency repositories, and all front end teams for all acquired organizations. These actions led to a reduction in application error rates by an average of 90% in 3 months. \u2022 **** \u2013 CloudWatch Container Insights, Contributor Insights, Lambda Insights, Logs, and Logs Insights consoles \u2013 I unified and unblocked cross-continental teams; created reusable components, utilities, and monitoring software that spanned multiple AWS services; improved CloudWatch's application monitoring with queryable log events; migrated availability monitoring to a fully cloud-native infrastructure, decreasing false alarms; wrote foundation code that allowed my team to double the number of offered dashboards; and resulted in a 20x larger user base. \u2022 **** \u2013 ReactN \u2013 I open-sourced an extension of React that offers a boilerplate-free, intuitive global state management solution that, at its peak, received over 8,000 weekly installations, totaling half a million downloads. \u2022 **** \u2013 Asset Protection Hub \u2013 I led full-stack development for the Asset Protection team in React and Node; built the front end using Redux, Material UI, visualizations, and form data entry; and built the back end as a REST API with Express routing, SQL Server, custom data compression, and dynamically generated PDFs. \u2022 **** \u2013 Innovation Challenge \u2013 I won first place in the ConocoPhillips Innovation Challenge Hackathon by mapping 360-degrees of obstructions as scanned by a remote-controlled robot to a web interface. \u2022 **** \u2013 CSPage PHP \u2013 I automated web page optimization by caching, compressing, concatenating, and otherwise optimizing HTML, CSS, JavaScript, and static file content distribution; supported HTML and CSS variables and custom <if>/<else> and <foreach> HTML tags; and cached both static and dynamic files. \u2022 **** \u2013 RPG Engine \u2013 I wrote a browser-based RPG overworld engine programmed entirely in HTML 4, CSS 2, and JavaScript; used sprite sheets and user input to animate highly customizable game settings and action-triggered events; and maintained backwards compatibility for Internet Explorer 6.\nWork Experience Senior front end engineer Coalition, Inc. **** * ******* Senior front end engineer Amazon Web Services, ******** ** **** * **** \u2022 Migrated my team's products to operational independence. \u2022 Scoped, estimated, tracked, and delegated five cross-team products end-to-end. \u2022 Actively engaged customers and product managers to better understand and improve products. \u2022 Wrote significant portion of code foundation, allowing team to reuse and rapidly iterate features. \u2022 Improved availability, performance, and customer experience monitoring; and automated localization. Walmart I.T. consultant Kitestring, ************ ** **** * **** \u2022 Developed software and mentored peers on three teams using React (+Native), Redux, Node, Express, MSSQL. Technical author **** * ******* \u2022 Published articles on career growth and front end technologies, focusing on JavaScript and React. \u2022 ************************************** Freelance **** * **** \u2022 Offered end-to-end customer engagement for and delivery of open-source and proprietary software.\nEducation Bachelor of Science, 4.0 GPA University of Central Arkansas, ****"
+    },
+    "meta": {
+        "identifier": "aGidPwNS",
+        "customIdentifier": null,
+        "ready": true,
+        "failed": false,
+        "readyDt": "2024-02-22T09:41:20.932254Z",
+        "fileName": "resume.pdf",
+        "expiryTime": null,
+        "language": "en",
+        "pdf": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_KwculPf.pdf?versionId=beE4E5Mfpu29qHjamqeE4UFO924tC5rJ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNLVPM3ODS%2F20240222%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240222T094121Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHEaDmFwLXNvdXRoZWFzdC0yIkYwRAIgLTYnp6%2B33OBRUK7nI0aNYpb9E2iUgj9DFEuim9qvOOICIF9u3Aof19uZ28L1VL5JAO65J5z5TFE9szi0SM0dse2IKokFCFsQAxoMMzM1NTk0NTcxMTYyIgzkZofMKuLqzp66jngq5gQtraeAG553tgAnrIdnQVfbMAFYLVTf8fRS8ErzOM96s1qHx8bsXoZ%2FHm%2B9lZ%2F3ZjZruet5k5%2Bivv4vJW0w1qK9CsobgGfLE8N9WUf2ntOdC758XztT0IuTA5fuFf3G9k4M2oJy2CwCQAV%2FkxdTYvBIuHod8j33wBCvMfuCF9JRoTmoqy0FNWg2xIESbHf5A10FLFkYrkfNt%2FYk5yKGzsrLFy9Jat%2BpgYQvDYfFxCr0If84iboIoGiHb8ETnffxUzZWPlcK5CoU3ZT3q%2FWlTFkrVJsBzmVCt98ZH5itUZg1PcYV91%2FSFFNG6zJFDabCzwNYr2paktDUR19MLCAOmum4ZcVqi4zbehlzKgytyUWGVD5jIc%2FtkAuo2OmQTt73kM44NC6BL4KSJw0QW7%2F%2F0grZKNMPkjyLQ5tjVbutoMzCOpOrY3uVOiRmsCIvCviKNiQL0q8kVkF5WSSmz%2B3wZm%2FaRdb7Xqyl0aaYqvChLlC72rt%2FIxjVn5%2FJwTVSXDiUXgiYkNYi80ECAbnhH6Z0n3Hxnp6z3IlMjItmLVKwAPQDgFPZKL4TvsB%2BLIovIkb9sZ%2BUapY84xhp5vcZ%2Fj97lRn3zegQucNGRF7lK8JugGzpMwi%2BVN4F1nl0KU05QPvOofRuX6ZrnjsXCrjzxEifYPZy0gE%2FWBgGjZzlVRzqr%2FCCm6vw6K4SH0Ine8RXcPMByQWq83kEiXZjQa%2Bd1LrTS4UXEeaJjt2PsL%2F%2BzDTW0gT1LHCZY%2FnS7mIUROIw0W62aT5B1DRTEJ2FmjDhMNUOlsQNVksbpQ%2FCKrQVl0%2FgHIpb60gX5A%2B2iTCapdyuBjqbAWwjRP9E9G6aEQZWr9vrVk1ppcOBfPY5IAXKWrpDj5H%2FgWOePTqU7xs36%2B2ZvjeKcdmtdIbopR7l2LDnE2RQc%2F%2FKbeUDadPcuNHUJTSOCbt3Qokj%2BpxHjA4RClt08jfX75MuCRYW1IB%2B5wD91QnVTsK7aP1K0QQVo6fvdkk7usJiixRVPI0g8eoFt3Q1fjeDFn8%2F8nk20NChft0a&X-Amz-Signature=88bc586aba2460e44791d545332bf1164807d6a3c0adfbeda0e6849ed36e64c3",
+        "parentDocument": null,
+        "childDocuments": [],
+        "pages": [
+            {
+                "id": 59370611,
+                "pageIndex": 0,
+                "image": null,
+                "height": 792.0,
+                "width": 612.0,
+                "rotation": 0
+            }
+        ],
+        "ocrConfidence": null,
+        "reviewUrl": "https://app.affinda.com/review/aGidPwNS?signature=eyJ1c2VyX2lkIjoxMjY4M30:1rd5Zx:oiRWDwRVu-n9IwKVAucFMIDuX6R5-hsC5AyOrnbSWAA:1rd5Zx:opp_ErustPFlx5fKTyteogTUWb37H-c1yOMaXOXYDWE",
+        "validatedDt": null,
+        "isVerified": false,
+        "exportedDt": null,
+        "isExported": false,
+        "createdDt": "2024-02-22T09:41:17.353139Z",
+        "errorDetail": null,
+        "documentType": "resume",
+        "file": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_KwculPf.pdf?versionId=beE4E5Mfpu29qHjamqeE4UFO924tC5rJ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNLVPM3ODS%2F20240222%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240222T094121Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHEaDmFwLXNvdXRoZWFzdC0yIkYwRAIgLTYnp6%2B33OBRUK7nI0aNYpb9E2iUgj9DFEuim9qvOOICIF9u3Aof19uZ28L1VL5JAO65J5z5TFE9szi0SM0dse2IKokFCFsQAxoMMzM1NTk0NTcxMTYyIgzkZofMKuLqzp66jngq5gQtraeAG553tgAnrIdnQVfbMAFYLVTf8fRS8ErzOM96s1qHx8bsXoZ%2FHm%2B9lZ%2F3ZjZruet5k5%2Bivv4vJW0w1qK9CsobgGfLE8N9WUf2ntOdC758XztT0IuTA5fuFf3G9k4M2oJy2CwCQAV%2FkxdTYvBIuHod8j33wBCvMfuCF9JRoTmoqy0FNWg2xIESbHf5A10FLFkYrkfNt%2FYk5yKGzsrLFy9Jat%2BpgYQvDYfFxCr0If84iboIoGiHb8ETnffxUzZWPlcK5CoU3ZT3q%2FWlTFkrVJsBzmVCt98ZH5itUZg1PcYV91%2FSFFNG6zJFDabCzwNYr2paktDUR19MLCAOmum4ZcVqi4zbehlzKgytyUWGVD5jIc%2FtkAuo2OmQTt73kM44NC6BL4KSJw0QW7%2F%2F0grZKNMPkjyLQ5tjVbutoMzCOpOrY3uVOiRmsCIvCviKNiQL0q8kVkF5WSSmz%2B3wZm%2FaRdb7Xqyl0aaYqvChLlC72rt%2FIxjVn5%2FJwTVSXDiUXgiYkNYi80ECAbnhH6Z0n3Hxnp6z3IlMjItmLVKwAPQDgFPZKL4TvsB%2BLIovIkb9sZ%2BUapY84xhp5vcZ%2Fj97lRn3zegQucNGRF7lK8JugGzpMwi%2BVN4F1nl0KU05QPvOofRuX6ZrnjsXCrjzxEifYPZy0gE%2FWBgGjZzlVRzqr%2FCCm6vw6K4SH0Ine8RXcPMByQWq83kEiXZjQa%2Bd1LrTS4UXEeaJjt2PsL%2F%2BzDTW0gT1LHCZY%2FnS7mIUROIw0W62aT5B1DRTEJ2FmjDhMNUOlsQNVksbpQ%2FCKrQVl0%2FgHIpb60gX5A%2B2iTCapdyuBjqbAWwjRP9E9G6aEQZWr9vrVk1ppcOBfPY5IAXKWrpDj5H%2FgWOePTqU7xs36%2B2ZvjeKcdmtdIbopR7l2LDnE2RQc%2F%2FKbeUDadPcuNHUJTSOCbt3Qokj%2BpxHjA4RClt08jfX75MuCRYW1IB%2B5wD91QnVTsK7aP1K0QQVo6fvdkk7usJiixRVPI0g8eoFt3Q1fjeDFn8%2F8nk20NChft0a&X-Amz-Signature=88bc586aba2460e44791d545332bf1164807d6a3c0adfbeda0e6849ed36e64c3",
+        "regionBias": {
+            "country": null,
+            "countries": null,
+            "squareCoordinates": null
+        }
+    },
+    "error": {
+        "errorCode": null,
+        "errorDetail": null
+    }
+}
