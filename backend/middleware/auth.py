@@ -1,15 +1,14 @@
 # my_app/authentication.py
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from rest_framework import authentication
 from rest_framework import exceptions
-from django.contrib.auth.models import User
 import jwt
 from django.conf import settings
 
 
 SECRET = 'SECRET'
 ALGO = 'HS256'
-
+User = get_user_model()
 class Authentication(authentication.BaseAuthentication):
     def authenticate(self, request):
         try:

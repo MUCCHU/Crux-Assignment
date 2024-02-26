@@ -28,8 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
+AUTH_USER_MODEL = "resume_parser.User"
 # Application definition
+
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
 
 INSTALLED_APPS = [
     'django.contrib.admin',

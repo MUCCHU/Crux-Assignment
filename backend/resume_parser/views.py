@@ -11,51 +11,31 @@ from django.contrib.auth import authenticate
 from middleware.auth import *
 from .serializers import ResumeSerializer, UserSerializer, JobPostingSerializer
 from rest_framework.permissions import IsAuthenticated, AllowAny
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from rest_framework.decorators import api_view, permission_classes, authentication_classes
+from django.http import HttpResponse, JsonResponse
+from utils.extract_details import extract_details
+from utils.get_score import score_resume_details
+
+
+User = get_user_model()
 
 class ResumeUploadView(APIView):
     authentication_classes = [Authentication]
     def post(self, request, *args, **kwargs):
-        file = request.FILES.get('resume')
-        if not file:
+        files = request.FILES.getlist('resume')
+        if len(files) == 0:
             return Response({"error": "No resume file provided"}, status=status.HTTP_400_BAD_REQUEST)
-        
-        # Call Affinda's API to parse the resume
-        # api_key = 'aff_c60e2875907e5d64107e432b51cd6719f1b79e49'
-        # headers = {'Authorization': f'Bearer {api_key}'}
-        # response = requests.post('https://api.affinda.com/v1/resumes', headers=headers, files={'file': file})
-        # json_file_path = settings.BASE_DIR / 'parsed_resumes' / f'{file.name}.json'
-        # with open(json_file_path, 'r') as json_file:
-        #     parsed_data = json.load(json_file)
-        #     return Response(parsed_data, status=status.HTTP_200_OK)
-        print(request.user)
-        return Response({"Done": "Done something"}, status=status.HTTP_200_OK)
-
-        # if response.status_code == 200:
-        #     data = response.json()
-        #     json_file_path = settings.BASE_DIR / 'parsed_resumes' / f'{file.name}.json'
-            
-        #     # Save parsed data to a JSON file
-        #     with open(json_file_path, 'w') as json_file:
-        #         json.dump(data, json_file)
-        #     # Extract data and save to DB (simplified example, adapt based on actual data structure)
-        #     resume_data = {
-        #         "name": data.get("name"),
-        #         "email": data.get("email"),
-        #         "phone": data.get("phone"),
-        #         "skills": ", ".join(data.get("skills", [])),
-        #         "experience": " ".join([exp["companyName"] for exp in data.get("experience", [])]),
-        #         "education": " ".join([edu["institutionName"] for edu in data.get("education", [])]),
-        #     }
-        #     serializer = ResumeSerializer(data=resume_data)
-        #     if serializer.is_valid():
-        #         serializer.save()
-        #         return Response(serializer.data, status=status.HTTP_201_CREATED)
-        #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-        # else:
-        #     print(f"Error: {response.status_code}, Message: {response.text}")
-        #     return Response({"error": "Failed to parse resume"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    
+        for file in files:
+            resume_data = {"file": file}
+            serializer = ResumeSerializer(data=resume_data)
+            if serializer.is_valid():
+                serializer.save()
+            else: 
+                return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+                
 
 @api_view(['POST'])
 def signin(request):
@@ -88,7 +68,13 @@ def signin(request):
 @api_view(['POST'])
 def signup(request):
     try:
-        print(request.data)
+        user = User.objects.filter(username=request.data['username'])
+        if user:
+            return Response({"error": "User with this username already exists"}, status=400)
+        user = User.objects.filter(email=request.data['email'])
+        if user:
+            return Response({"error": "User with this email already exists"}, status=400)
+
         user = UserSerializer(data=request.data)
         if user.is_valid():
             user = user.save()
@@ -116,3 +102,39 @@ def get_user(request):
 class JobPostingViewSet(viewsets.ModelViewSet):
     queryset = JobPosting.objects.all()
     serializer_class = JobPostingSerializer
+
+class FileDownloadView(APIView):
+    def get(self, request, file_id, *args, **kwargs):
+        file_obj = Resume.objects.get(pk=file_id)
+        file_path = file_obj.file.path
+        with open(file_path, 'rb') as file:
+            response = HttpResponse(file.read(), content_type="application/pdf")
+            response['Content-Disposition'] = f'inline; filename="{file_obj.file.name}"'
+            return response
+
+@api_view(['POST'])
+@authentication_classes([Authentication])
+def run_task(request):
+    try:
+        job_id = request.data.get('job_id')
+        job = JobPosting.objects.get(id=job_id)
+        resume_files = Resume.objects.all()
+
+        for resume_file in resume_files:
+            if not resume_file.description:
+                details = extract_details(resume_file.file.path)
+                resume_file.description = json.dumps(details)
+            else:
+                details = json.loads(resume_file.description)
+            
+            resume_details = score_resume_details(job.title, job.description, details)
+            resume_file.score = json.loads(resume_details)['relevance_score']
+            resume_file.description = resume_details
+            resume_file.save()
+
+        serialized_files = ResumeSerializer(resume_files, many=True)
+        return JsonResponse(serialized_files.data, safe=False, status=200)
+    except JobPosting.DoesNotExist:
+        return JsonResponse({'error': 'Task does not exist'}, status=404)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=400)

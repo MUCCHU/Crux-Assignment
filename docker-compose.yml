@@ -31,6 +31,8 @@ services:
     networks:
       crux:
         ipv4_address: 10.5.0.6
+    environment:
+      - OPENAI_API_KEY=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
 
 networks:
   crux:

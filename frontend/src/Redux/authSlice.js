@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { loginUser, verifyUser } from './auth.service'
-
+import { loginUser, verifyUser, registerUser } from './auth.service'
 
 const initialState = {
   loading: false,
@@ -9,7 +8,12 @@ const initialState = {
   error: null,
   success: null,
 }
+function success(message){
 
+}
+function error(message){
+
+}
 const authSlice = createSlice({
   name: 'auth',
   initialState,
@@ -36,10 +40,12 @@ const authSlice = createSlice({
         state.userToken = payload.token
         state.userInfo = payload.data.user
         localStorage.setItem('userToken', payload.token)
+        success("Login Successful");
       })
       .addCase(loginUser.rejected, (state, { payload }) => {
         state.loading = false
         state.error = payload
+        error("Login Failed");
       })
       builder
       .addCase(verifyUser.pending, (state) => {
@@ -51,11 +57,27 @@ const authSlice = createSlice({
         state.success = payload.message
         state.userToken = payload.token
         state.userInfo = payload.data.user
-        localStorage.setItem('userToken', payload.token)
+        console.log("verified")
       })
       .addCase(verifyUser.rejected, (state, { payload }) => {
         state.loading = false
+        state.error = {'message': payload}
+        console.log("not verified")
+      })
+      builder
+      .addCase(registerUser.pending, (state) => {
+        state.loading = true
+        state.error = null
+      })
+      .addCase(registerUser.fulfilled, (state, { payload }) => {
+        state.loading = true
+        state.error = null
+        success("Registration Successful");
+      })
+      .addCase(registerUser.rejected, (state, { payload }) => {
+        state.loading = false
         state.error = payload
+        error("Registration Failed");
       })
   },
 })

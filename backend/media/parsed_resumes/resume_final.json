@@ -1,0 +1,1102 @@
+{
+    "data": {
+        "certifications": [
+            "Programming Languages C C Javascript Python SQL Typescript Java Rust Developer Tools Git Github Arch Linux Docker",
+            "COURSEWORK INFORMATION",
+            "File Organisation and Database Management System Design and Analysis of Algorithms Programming and Data Stuctures Big Data",
+            "Automated the certification distribution process by innovating a certificate generator app used by 3000 participants of Kshitij 22"
+        ],
+        "dateOfBirth": null,
+        "education": [
+            {
+                "id": 54055073,
+                "organization": "IIT Kharagpur",
+                "accreditation": {
+                    "education": "M.SC(5YR)",
+                    "educationLevel": "masters",
+                    "inputStr": "M.SC(5YR)",
+                    "matchStr": ""
+                },
+                "grade": {
+                    "raw": "7.76 / 10",
+                    "value": "7.76/10",
+                    "metric": null
+                },
+                "location": null,
+                "dates": {
+                    "startDate": null,
+                    "completionDate": "2025-01-01",
+                    "isCurrent": false,
+                    "rawText": "2025"
+                }
+            },
+            {
+                "id": 54055074,
+                "organization": "Tuli Public School",
+                "accreditation": {
+                    "education": "CBSE Class 12",
+                    "educationLevel": null,
+                    "inputStr": "CBSE Class 12",
+                    "matchStr": ""
+                },
+                "grade": {
+                    "raw": "85%",
+                    "value": "85%",
+                    "metric": null
+                },
+                "location": null,
+                "dates": {
+                    "startDate": null,
+                    "completionDate": "2020-01-01",
+                    "isCurrent": false,
+                    "rawText": "2020"
+                }
+            },
+            {
+                "id": 54055075,
+                "organization": "Marie Poussepin's Academy",
+                "accreditation": {
+                    "education": "ICSE Class 10",
+                    "educationLevel": null,
+                    "inputStr": "ICSE Class 10",
+                    "matchStr": ""
+                },
+                "grade": {
+                    "raw": "92.5%",
+                    "value": "92.5%",
+                    "metric": null
+                },
+                "location": null,
+                "dates": {
+                    "startDate": null,
+                    "completionDate": "2018-01-01",
+                    "isCurrent": false,
+                    "rawText": "2018"
+                }
+            }
+        ],
+        "emails": [],
+        "location": null,
+        "name": {
+            "raw": "HARSH WASNIK",
+            "last": "Wasnik",
+            "first": "Harsh",
+            "title": "",
+            "middle": ""
+        },
+        "objective": "",
+        "phoneNumbers": [],
+        "phoneNumberDetails": [],
+        "publications": [],
+        "referees": [],
+        "sections": [
+            {
+                "bbox": [
+                    197.49799,
+                    15.0,
+                    398.318,
+                    50.208008
+                ],
+                "text": "HARSH WASNIK | 20MA20023 MATHEMATICS & COMPUTING (M.Sc. 5Y)",
+                "pageIndex": 0,
+                "sectionType": "PersonalDetails"
+            },
+            {
+                "bbox": [
+                    12.16,
+                    66.06897,
+                    570.69,
+                    135.32
+                ],
+                "text": "EDUCATION Year Degree/Exam Institute CGPA/Marks 2025 M.SC(5YR) IIT Kharagpur 7.76 / 10 2020 CBSE Class 12 Tuli Public School 85% 2018 ICSE Class 10 Marie Poussepin's Academy 92.5%",
+                "pageIndex": 0,
+                "sectionType": "Education"
+            },
+            {
+                "bbox": [
+                    12.684,
+                    144.091,
+                    579.9642,
+                    222.33002
+                ],
+                "text": "INTERNSHIPS Full-Stack Developer Internship | Infinte Loop Technologies Private Limited [Jun'22 - Aug'22] \u2022 Developed a video-live streaming sever featuring RTMP ingest and HLS delivery using NGINX supporting upto 512 simultaneous streams \u2022 Implemented live chat feature by using Django Channels, thereby utilizing the WebSockets protocol enabling real-time communication \u2022 Converted monolithic to microservices architecture by dockerizing application and migrated from Django 2.2 to 4.2 improving support \u2022 Developed multiple APIs utilizing the Django Rest Framework to support CRUD operations for various types of social media posts",
+                "pageIndex": 0,
+                "sectionType": "WorkExperience"
+            },
+            {
+                "bbox": [
+                    12.351,
+                    231.06897,
+                    583.5471,
+                    456.33
+                ],
+                "text": "PROJECTS Leetcode problems Search Engine | Self Project [May'23 - Jun'23] \u2022 Scraped more than 2200 LeetCode problems by using Python and Selenium and stored Titles, descriptions, and links for further processing \u2022 Computed the Term Frequency and Inverse Document Frequency and used the TF-IDF score to rank problems based on search query \u2022 Built a web application using Flask to provide an intuitive user interface to search problems and show results and deployed it on Render Cricket Team Selector and Match Outcome Predictor | Prof. Bibhas Adhikari | Term Project [Feb'23-Apr'23] \u2022 Built a web scraper using Selenium and Beautiful Soup to extract player performance and ball-by-ball data for last 533 ODI Intl matches \u2022 Attained best accuracy of 86.14% to predict match outcome by utilizing Linear Regression and Random Forests trained on 1.37 lakh balls \u2022 Devised a batsman and bowler strength index to select the playing 11 out of a pool of 20 players using the team selector model Customer Relation Management Application | Self Project [Apr'22-Jun'22] \u2022 Developed a comprehensive Customer Relationship Management system using Django for efficient order tracking and management \u2022 Implemented custom Django forms and decorators to streamline CRM operations, resulting in increased efficiency and user satisfaction \u2022 Utilized Django Templates to craft visually appealing UI along with using template inheritance ensuring a seamless experience Social Media Application | Self Project [May'21- Jun'21] \u2022 Built a social media app using MERN stack enabling users to create, share, and react to posts in a collaborative online environment \u2022 Employed Context API for streamlined state management and reduced the API calls significantly, resulting in a 30% reduction in load time \u2022 Incorporated Json Web Token(JWT) Authentication for secured user access and interactions by allowing only logged-in users to view posts",
+                "pageIndex": 0,
+                "sectionType": "Projects"
+            },
+            {
+                "bbox": [
+                    12.144,
+                    464.871,
+                    581.53064,
+                    608.33
+                ],
+                "text": "COMPETITION/CONFERENCE Hack-an-Intern | KodeinKGP, IIT Kharagpur | Bronze [Oct'22 - Nov'22] Objective: Implement a trading platform where users can trade tokens amongst other users while supporting different types of orders \u2022 Among the top 3 teams in a 48-hour long institute-wide Hackathon, which received participation from more than 20 different teams \u2022 Built a user-friendly interface using React.js, Ant Design and utilized Highcharts.js to incorporate dynamically updating price charts \u2022 Designed and implemented a stock price matching algorithm for limit and market orders enabling dynamic pricing using Django backend Website Hackathon | Technology Students' Gymkhana, IIT Kharagpur | Gold [Dec'21-Jan'22] Objective: Develop a one-stop solution to manage all co-curricular and extra-curricular activities under the purview of TSG, IIT Kharagpur \u2022 Led a team of 11 members to win the podium in multiple categories and achieved the prestigious First Position amongst 30+ teams \u2022 Built React.js website served through APIs built using django-rest-framework along with jwt authorization and email verification via OTP \u2022 Incorporated features like Bill Reimbursement Portal, Grievance Portal, real-time Notifications, and Admin Panel for content management",
+                "pageIndex": 0,
+                "sectionType": "WorkExperience"
+            },
+            {
+                "bbox": [
+                    12.684,
+                    617.091,
+                    559.67786,
+                    658.33
+                ],
+                "text": "SKILLS AND EXPERTISE Programming Languages: C, C++, Javascript, Python, SQL, Typescript*, Java*, Rust* Developer Tools: Git, Github, Arch Linux, Docker DBMS: MySQL, MongoDB* Frameworks/Libraries: Django, Flask, React.js, Next.js, Beautiful soup, Selenium, Node.js* [* familiar]",
+                "pageIndex": 0,
+                "sectionType": "Skills/Interests/Languages"
+            },
+            {
+                "bbox": [
+                    12.14,
+                    667.069,
+                    557.1102,
+                    704.49
+                ],
+                "text": "COURSEWORK INFORMATION File Organisation and Database Management System | Design and Analysis of Algorithms | Programming and Data Stuctures| Big Data Analysis | Computer Organisation Architechture | Usable Security and Privacy | Computer Networks",
+                "pageIndex": 0,
+                "sectionType": "Education"
+            },
+            {
+                "bbox": [
+                    12.126,
+                    713.091,
+                    581.0356,
+                    829.33
+                ],
+                "text": "POSITIONS OF RESPONSIBILITY Tech Team Sub-Head | Kshitij, IIT Kharagpur [Aug'21 - Jun'22] \u2022 Developed and managed the Kshitij'22 website driving 19,500+ registrations and the Admin Panel enabling efficient content management \u2022 Boosted the desktop performance on PageSpeed insights to 88 through lazy loading images and reducing the network payload \u2022 Automated the certification distribution process by innovating a certificate generator app used by 3000+ participants of Kshitij'22 EXTRA CURRICULAR ACTIVITIES \u2022 Actively participated in the Illumination and Inter-Hall Opensoft Competition organized by TSG, IIT Kharagpur in 2022 \u2022 Spread awareness as a member of NSO Health and Fitness and learned swimming as a part of the Technology Aquatics Society",
+                "pageIndex": 0,
+                "sectionType": "Extracurriculars/Leadership"
+            },
+            {
+                "bbox": [
+                    12.78,
+                    835.902,
+                    192.72601,
+                    841.302
+                ],
+                "text": "!Self declared by the student, CDC could not verify the relevant documents",
+                "pageIndex": 0,
+                "sectionType": "Footer"
+            }
+        ],
+        "skills": [
+            {
+                "id": 581912821,
+                "emsiId": "KS4413Y6BTT254HZKWTZ",
+                "name": "Swimming",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912822,
+                "emsiId": "ESA0C585B3CBA1045AD0",
+                "name": "MERN Stack",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912824,
+                "emsiId": "KS122BM7899YNC6504SP",
+                "name": "Content Management",
+                "lastUsed": "2022-01-01",
+                "numberOfMonths": 1,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912825,
+                "emsiId": "KS127126GR4WQYW9LXCW",
+                "name": "Nginx",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912826,
+                "emsiId": "KS125LS6N7WP4S6SFTCK",
+                "name": "Python (Programming Language)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912827,
+                "emsiId": "KS125R977Y5B19Z6FY5P",
+                "name": "Lazy Loading",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912828,
+                "emsiId": "KS1200771D9CR9LB4MWW",
+                "name": "JavaScript (Programming Language)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912829,
+                "emsiId": "KSZX7YZWNR5IDR1I2VMZ",
+                "name": "Microservices",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912831,
+                "emsiId": "KS440W865GC4VRBW6LJP",
+                "name": "SQL (Programming Language)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912833,
+                "emsiId": "KS1218W78FGVPVP2KXPX",
+                "name": "Management",
+                "lastUsed": "2022-01-01",
+                "numberOfMonths": 1,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912835,
+                "emsiId": "KS440PV6FRJ90X0QFNLY",
+                "name": "Social Media",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912838,
+                "emsiId": "KS126QY605N7YVHFYCTW",
+                "name": "MySQL",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912839,
+                "emsiId": "KS1200364C9C1LK3V5Q1",
+                "name": "C (Programming Language)",
+                "lastUsed": "2022-11-01",
+                "numberOfMonths": 4,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "PersonalDetails",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 104527120
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912840,
+                "emsiId": "KS1217P66NK6BW72M9FH",
+                "name": "Customer Relationship Management",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912843,
+                "emsiId": "KS127D361PF0FTXDZ7C4",
+                "name": "Operations",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912844,
+                "emsiId": "KS122VT6S2JJ5C5D80NF",
+                "name": "Linux",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912845,
+                "emsiId": "KS122556LMQ829GZCCRV",
+                "name": "Communications",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912846,
+                "emsiId": "KS1208P6ZMZ4N872Y7X5",
+                "name": "Application Programming Interface (API)",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 3,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912847,
+                "emsiId": "KS120MD75MPRZ64K246K",
+                "name": "Arch Linux",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912849,
+                "emsiId": "ES70CD6E89F6DAD8F319",
+                "name": "Relationship Management",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "soft_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912850,
+                "emsiId": "KS124CH623PFBJS8T5KM",
+                "name": "Github",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912851,
+                "emsiId": "KS441LY691MT0N689MWR",
+                "name": "User Interface",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912852,
+                "emsiId": "KS120076FGP5WGWYMP0F",
+                "name": "Java (Programming Language)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912853,
+                "emsiId": "KS127296VDYS7ZFWVC46",
+                "name": "Node.js",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912854,
+                "emsiId": "ES933D5DCC6C3A7C44D9",
+                "name": "JSON Web Token (JWT)",
+                "lastUsed": "2022-01-01",
+                "numberOfMonths": 1,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912855,
+                "emsiId": "KS126PF6PJY1N0ZX5R0P",
+                "name": "MongoDB",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912856,
+                "emsiId": "KSY4WFI1S164RQUBSPCC",
+                "name": "Docker (Software)",
+                "lastUsed": "2022-08-01",
+                "numberOfMonths": 2,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    }
+                ]
+            },
+            {
+                "id": 581912857,
+                "emsiId": "KS1226K6T18SRM078HLM",
+                "name": "Reduction (Complexity)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912819,
+                "emsiId": "KSDJCA4E89LB98JAZ7LZ",
+                "name": "React.js",
+                "lastUsed": "2022-11-01",
+                "numberOfMonths": 2,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 104527120
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 104527120
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912820,
+                "emsiId": "KS441LF7187KS0CV4B6Y",
+                "name": "TypeScript",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912823,
+                "emsiId": "ES46B2FBE34B5D3E45D5",
+                "name": "Flask (Web Framework)",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912830,
+                "emsiId": "ES7CA4F00390885DBAAB",
+                "name": "Next.js",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912832,
+                "emsiId": "KSNK0F6EWGP0WZ3481C0",
+                "name": "PageSpeed",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Extracurriculars/Leadership",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912834,
+                "emsiId": "KS686Y976L1WJ98QFSD4",
+                "name": "Authorization (Computing)",
+                "lastUsed": "2022-01-01",
+                "numberOfMonths": 1,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            },
+            {
+                "id": 581912836,
+                "emsiId": "KS125VJ636ZVWXWBJH1C",
+                "name": "Linear Regression",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912837,
+                "emsiId": "KS8TU0J0IOFIJUU9VS4H",
+                "name": "Load Time",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912841,
+                "emsiId": "KS125HM6044N46LPQLH1",
+                "name": "JSON",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912842,
+                "emsiId": "KS7G1P76W2FRM88BQFJN",
+                "name": "Templates",
+                "lastUsed": null,
+                "numberOfMonths": null,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    }
+                ]
+            },
+            {
+                "id": 581912848,
+                "emsiId": "KS1232D6PH6SBVWWPQWC",
+                "name": "Django (Web Framework)",
+                "lastUsed": "2022-11-01",
+                "numberOfMonths": 4,
+                "type": "hard_skill",
+                "sources": [
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Projects",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "Skills/Interests/Languages",
+                        "position": null,
+                        "workExperienceId": null
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 104527120
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 0,
+                        "workExperienceId": 104527119
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 1,
+                        "workExperienceId": 104527120
+                    },
+                    {
+                        "section": "WorkExperience",
+                        "position": 2,
+                        "workExperienceId": 104527121
+                    }
+                ]
+            }
+        ],
+        "languages": [
+            "English"
+        ],
+        "summary": "",
+        "websites": [],
+        "linkedin": null,
+        "totalYearsExperience": 0,
+        "profession": "full-stack developer",
+        "workExperience": [
+            {
+                "id": 104527119,
+                "jobTitle": "Full-Stack Developer Internship",
+                "organization": "Infinte Loop Technologies Private Limited",
+                "location": null,
+                "dates": {
+                    "startDate": "2022-06-01",
+                    "endDate": "2022-08-01",
+                    "monthsInPosition": 2,
+                    "isCurrent": false,
+                    "rawText": "[Jun'22 - Aug'22]"
+                },
+                "jobDescription": "\u2022 Developed a video-live streaming sever featuring RTMP ingest and HLS delivery using NGINX supporting upto 512 simultaneous streams \n\u2022 Implemented live chat feature by using Django Channels, thereby utilizing the WebSockets protocol enabling real-time communication \n\u2022 Converted monolithic to microservices architecture by dockerizing application and migrated from Django 2.2 to 4.2 improving support \n\u2022 Developed multiple APIs utilizing the Django Rest Framework to support CRUD operations for various types of social media posts ",
+                "occupation": {
+                    "jobTitle": "Full-Stack Developer Internship",
+                    "jobTitleNormalized": "Full Stack Developer",
+                    "classification": {
+                        "socCode": 2134,
+                        "title": "Programmers and software development professionals ",
+                        "minorGroup": "Information Technology Professionals",
+                        "subMajorGroup": "SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS",
+                        "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                        "minorGroupCode": 213,
+                        "subMajorGroupCode": 21,
+                        "majorGroupCode": 2
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ET50828432D24BA35A"
+                }
+            },
+            {
+                "id": 104527120,
+                "jobTitle": "Hack-an-Intern",
+                "organization": "KodeinKgp IIT Kharagpur",
+                "location": null,
+                "dates": {
+                    "startDate": "2022-10-01",
+                    "endDate": "2022-11-01",
+                    "monthsInPosition": 1,
+                    "isCurrent": false,
+                    "rawText": "[Oct'22 - Nov'22]"
+                },
+                "jobDescription": "Objective: Implement a trading platform where users can trade tokens amongst other users while supporting different types of orders \n\u2022 Among the top 3 teams in a 48-hour long institute-wide Hackathon, which received participation from more than 20 different teams \n\u2022 Built a user-friendly interface using React.js, Ant Design and utilized Highcharts.js to incorporate dynamically updating price charts \n\u2022 Designed and implemented a stock price matching algorithm for limit and market orders enabling dynamic pricing using Django backend ",
+                "occupation": {
+                    "jobTitle": "Hack-an-Intern",
+                    "jobTitleNormalized": "Intern",
+                    "classification": {
+                        "socCode": 2439,
+                        "title": "Business, research and administrative professionals n.e.c.",
+                        "minorGroup": "Business, Research and Administrative Professionals",
+                        "subMajorGroup": "BUSINESS, MEDIA AND PUBLIC SERVICE PROFESSIONALS",
+                        "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                        "minorGroupCode": 243,
+                        "subMajorGroupCode": 24,
+                        "majorGroupCode": 2
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ET126EB3FF8715863B"
+                }
+            },
+            {
+                "id": 104527121,
+                "jobTitle": "Website Hackathon",
+                "organization": "Technology Students' Gymkhana, IIT Kharagpur",
+                "location": null,
+                "dates": {
+                    "startDate": "2021-12-01",
+                    "endDate": "2022-01-01",
+                    "monthsInPosition": 1,
+                    "isCurrent": false,
+                    "rawText": "[Dec'21-Jan'22]"
+                },
+                "jobDescription": "Objective: Develop a one-stop solution to manage all co-curricular and extra-curricular activities under the purview of TSG, IIT Kharagpur \n\u2022 Led a team of 11 members to win the podium in multiple categories and achieved the prestigious First Position amongst 30+ teams \n\u2022 Built React.js website served through APIs built using django-rest-framework along with jwt authorization and email verification via OTP \n\u2022 Incorporated features like Bill Reimbursement Portal, Grievance Portal, real-time Notifications, and Admin Panel for content management ",
+                "occupation": {
+                    "jobTitle": "Website Hackathon",
+                    "jobTitleNormalized": "Website Producer",
+                    "classification": {
+                        "socCode": 2134,
+                        "title": "Programmers and software development professionals ",
+                        "minorGroup": "Information Technology Professionals",
+                        "subMajorGroup": "SCIENCE, RESEARCH, ENGINEERING AND TECHNOLOGY PROFESSIONALS",
+                        "majorGroup": "PROFESSIONAL OCCUPATIONS",
+                        "minorGroupCode": 213,
+                        "subMajorGroupCode": 21,
+                        "majorGroupCode": 2
+                    },
+                    "managementLevel": "Low",
+                    "emsiId": "ETFB8D9CA486F45DB2"
+                }
+            }
+        ],
+        "headShot": "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",
+        "isResumeProbability": 99,
+        "rawText": "HARSH WASNIK | 20MA20023 MATHEMATICS & COMPUTING (M.Sc. 5Y)\nEDUCATION Year Degree/Exam Institute CGPA/Marks 2025 M.SC(5YR) IIT Kharagpur 7.76 / 10 2020 CBSE Class 12 Tuli Public School 85% 2018 ICSE Class 10 Marie Poussepin's Academy 92.5%\nINTERNSHIPS Full-Stack Developer Internship | Infinte Loop Technologies Private Limited [Jun'22 - Aug'22] \u2022 Developed a video-live streaming sever featuring RTMP ingest and HLS delivery using NGINX supporting upto 512 simultaneous streams \u2022 Implemented live chat feature by using Django Channels, thereby utilizing the WebSockets protocol enabling real-time communication \u2022 Converted monolithic to microservices architecture by dockerizing application and migrated from Django 2.2 to 4.2 improving support \u2022 Developed multiple APIs utilizing the Django Rest Framework to support CRUD operations for various types of social media posts\nPROJECTS Leetcode problems Search Engine | Self Project [May'23 - Jun'23] \u2022 Scraped more than 2200 LeetCode problems by using Python and Selenium and stored Titles, descriptions, and links for further processing \u2022 Computed the Term Frequency and Inverse Document Frequency and used the TF-IDF score to rank problems based on search query \u2022 Built a web application using Flask to provide an intuitive user interface to search problems and show results and deployed it on Render Cricket Team Selector and Match Outcome Predictor | Prof. Bibhas Adhikari | Term Project [Feb'23-Apr'23] \u2022 Built a web scraper using Selenium and Beautiful Soup to extract player performance and ball-by-ball data for last 533 ODI Intl matches \u2022 Attained best accuracy of 86.14% to predict match outcome by utilizing Linear Regression and Random Forests trained on 1.37 lakh balls \u2022 Devised a batsman and bowler strength index to select the playing 11 out of a pool of 20 players using the team selector model Customer Relation Management Application | Self Project [Apr'22-Jun'22] \u2022 Developed a comprehensive Customer Relationship Management system using Django for efficient order tracking and management \u2022 Implemented custom Django forms and decorators to streamline CRM operations, resulting in increased efficiency and user satisfaction \u2022 Utilized Django Templates to craft visually appealing UI along with using template inheritance ensuring a seamless experience Social Media Application | Self Project [May'21- Jun'21] \u2022 Built a social media app using MERN stack enabling users to create, share, and react to posts in a collaborative online environment \u2022 Employed Context API for streamlined state management and reduced the API calls significantly, resulting in a 30% reduction in load time \u2022 Incorporated Json Web Token(JWT) Authentication for secured user access and interactions by allowing only logged-in users to view posts\nCOMPETITION/CONFERENCE Hack-an-Intern | KodeinKGP, IIT Kharagpur | Bronze [Oct'22 - Nov'22] Objective: Implement a trading platform where users can trade tokens amongst other users while supporting different types of orders \u2022 Among the top 3 teams in a 48-hour long institute-wide Hackathon, which received participation from more than 20 different teams \u2022 Built a user-friendly interface using React.js, Ant Design and utilized Highcharts.js to incorporate dynamically updating price charts \u2022 Designed and implemented a stock price matching algorithm for limit and market orders enabling dynamic pricing using Django backend Website Hackathon | Technology Students' Gymkhana, IIT Kharagpur | Gold [Dec'21-Jan'22] Objective: Develop a one-stop solution to manage all co-curricular and extra-curricular activities under the purview of TSG, IIT Kharagpur \u2022 Led a team of 11 members to win the podium in multiple categories and achieved the prestigious First Position amongst 30+ teams \u2022 Built React.js website served through APIs built using django-rest-framework along with jwt authorization and email verification via OTP \u2022 Incorporated features like Bill Reimbursement Portal, Grievance Portal, real-time Notifications, and Admin Panel for content management\nSKILLS AND EXPERTISE Programming Languages: C, C++, Javascript, Python, SQL, Typescript*, Java*, Rust* Developer Tools: Git, Github, Arch Linux, Docker DBMS: MySQL, MongoDB* Frameworks/Libraries: Django, Flask, React.js, Next.js, Beautiful soup, Selenium, Node.js* [* familiar]\nCOURSEWORK INFORMATION File Organisation and Database Management System | Design and Analysis of Algorithms | Programming and Data Stuctures| Big Data Analysis | Computer Organisation Architechture | Usable Security and Privacy | Computer Networks\nPOSITIONS OF RESPONSIBILITY Tech Team Sub-Head | Kshitij, IIT Kharagpur [Aug'21 - Jun'22] \u2022 Developed and managed the Kshitij'22 website driving 19,500+ registrations and the Admin Panel enabling efficient content management \u2022 Boosted the desktop performance on PageSpeed insights to 88 through lazy loading images and reducing the network payload \u2022 Automated the certification distribution process by innovating a certificate generator app used by 3000+ participants of Kshitij'22 EXTRA CURRICULAR ACTIVITIES \u2022 Actively participated in the Illumination and Inter-Hall Opensoft Competition organized by TSG, IIT Kharagpur in 2022 \u2022 Spread awareness as a member of NSO Health and Fitness and learned swimming as a part of the Technology Aquatics Society\n!Self declared by the student, CDC could not verify the relevant documents",
+        "redactedText": "***** ****** | 20MA20023 MATHEMATICS & COMPUTING (*.Sc. 5Y)\nEDUCATION Year Degree/Exam Institute CGPA/Marks **** *.SC(5YR) IIT Kharagpur 7.76 / 10 **** CBSE Class 12 Tuli Public School 85% **** ICSE Class 10 Marie Poussepin's Academy 92.5%\nINTERNSHIPS Full-Stack Developer Internship | Infinte Loop Technologies Private Limited ******* * ******* \u2022 Developed a video-live streaming sever featuring RTMP ingest and HLS delivery using NGINX supporting upto 512 simultaneous streams \u2022 Implemented live chat feature by using Django Channels, thereby utilizing the WebSockets protocol enabling real-time communication \u2022 Converted monolithic to microservices architecture by dockerizing application and migrated from Django 2.2 to 4.2 improving support \u2022 Developed multiple APIs utilizing the Django Rest Framework to support CRUD operations for various types of social media posts\nPROJECTS Leetcode problems Search Engine | Self Project [May'23 - Jun'23] \u2022 Scraped more than 2200 LeetCode problems by using Python and Selenium and stored Titles, descriptions, and links for further processing \u2022 Computed the Term Frequency and Inverse Document Frequency and used the TF-IDF score to rank problems based on search query \u2022 Built a web application using Flask to provide an intuitive user interface to search problems and show results and deployed it on Render Cricket Team Selector and Match Outcome Predictor | Prof. Bibhas Adhikari | Term Project [Feb'23-Apr'23] \u2022 Built a web scraper using Selenium and Beautiful Soup to extract player performance and ball-by-ball data for last 533 ODI Intl matches \u2022 Attained best accuracy of 86.14% to predict match outcome by utilizing Linear Regression and Random Forests trained on 1.37 lakh balls \u2022 Devised a batsman and bowler strength index to select the playing 11 out of a pool of 20 players using the team selector model Customer Relation Management Application | Self Project [Apr'22-Jun'22] \u2022 Developed a comprehensive Customer Relationship Management system using Django for efficient order tracking and management \u2022 Implemented custom Django forms and decorators to streamline CRM operations, resulting in increased efficiency and user satisfaction \u2022 Utilized Django Templates to craft visually appealing UI along with using template inheritance ensuring a seamless experience Social Media Application | Self Project [May'21- Jun'21] \u2022 Built a social media app using MERN stack enabling users to create, share, and react to posts in a collaborative online environment \u2022 Employed Context API for streamlined state management and reduced the API calls significantly, resulting in a 30% reduction in load time \u2022 Incorporated Json Web Token(JWT) Authentication for secured user access and interactions by allowing only logged-in users to view posts\nCOMPETITION/CONFERENCE Hack-an-Intern | KodeinKGP, IIT Kharagpur | Bronze ******* * ******* Objective: Implement a trading platform where users can trade tokens amongst other users while supporting different types of orders \u2022 Among the top 3 teams in a 48-hour long institute-wide Hackathon, which received participation from more than 20 different teams \u2022 Built a user-friendly interface using React.js, Ant Design and utilized Highcharts.js to incorporate dynamically updating price charts \u2022 Designed and implemented a stock price matching algorithm for limit and market orders enabling dynamic pricing using Django backend Website Hackathon | Technology Students' Gymkhana, IIT Kharagpur | Gold *************** Objective: Develop a one-stop solution to manage all co-curricular and extra-curricular activities under the purview of TSG, IIT Kharagpur \u2022 Led a team of 11 members to win the podium in multiple categories and achieved the prestigious First Position amongst 30+ teams \u2022 Built React.js website served through APIs built using django-rest-framework along with jwt authorization and email verification via OTP \u2022 Incorporated features like Bill Reimbursement Portal, Grievance Portal, real-time Notifications, and Admin Panel for content management\nSKILLS AND EXPERTISE Programming Languages: C, C++, Javascript, Python, SQL, Typescript*, Java*, Rust* Developer Tools: Git, Github, Arch Linux, Docker DBMS: MySQL, MongoDB* Frameworks/Libraries: Django, Flask, React.js, Next.js, Beautiful soup, Selenium, Node.js* [* familiar]\nCOURSEWORK INFORMATION File Organisation and Database Management System | Design and Analysis of Algorithms | Programming and Data Stuctures| Big Data Analysis | Computer Organisation Architechture | Usable Security and Privacy | Computer Networks\nPOSITIONS OF RESPONSIBILITY Tech Team Sub-Head | Kshitij, IIT Kharagpur [Aug'21 - Jun'22] \u2022 Developed and managed the Kshitij'22 website driving 19,500+ registrations and the Admin Panel enabling efficient content management \u2022 Boosted the desktop performance on PageSpeed insights to 88 through lazy loading images and reducing the network payload \u2022 Automated the certification distribution process by innovating a certificate generator app used by 3000+ participants of Kshitij'22 EXTRA CURRICULAR ACTIVITIES \u2022 Actively participated in the Illumination and Inter-Hall Opensoft Competition organized by TSG, IIT Kharagpur in **** \u2022 Spread awareness as a member of NSO Health and Fitness and learned swimming as a part of the Technology Aquatics Society\n!Self declared by the student, CDC could not verify the relevant documents"
+    },
+    "meta": {
+        "identifier": "PfnsSPuG",
+        "customIdentifier": null,
+        "ready": true,
+        "failed": false,
+        "readyDt": "2024-02-25T12:10:31.173177Z",
+        "fileName": "resume_final.pdf",
+        "expiryTime": null,
+        "language": "en",
+        "pdf": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_final_aI93Hr2.pdf?versionId=y9F9GhiJb_LpFrQy82OG_OfRlsflUn8e&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNJCIVNWYY%2F20240225%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240225T121031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkgwRgIhANKs4wfB3rgqxl957PaAQCaYi6D4An4saaoZsbDnrO6qAiEA9HvXBOpw%2BXFW2faIdjKSJP%2BZRtAcKbfLT5zg1MP%2FEZAqkgUIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwzMzU1OTQ1NzExNjIiDB01sIW4K%2F%2BeC4E%2FmCrmBKPzgh4AF4qe%2BtpUT0IlqwxiFJ496zM3oRnJF%2BrgBFhLOhI7Uzztw4IWCUwuZJ3TQHRuByWEOzLZg4UGfwGUKrgFqa46ftR0gStMcz0QY7pggowTimoRFwsqWhgUFgycb3URP875asYjVhL2HNxJ8EfUTiy6g6o85tGjMBKZTNae%2F1%2FTnvotVNVT4Q70o9LIdxJbn3derqJLNzP9RgbhiSdXTs2yUmYHznWQOcAFhMNIvxnfAnN52hMMyRG6TRb8VSMNAYhwVzeoCXI2NNuMrhBT3JFM1fewktOsHhVG4chWvhlhCu24TQGZlBSHCrqL6Lf4dTB%2F9PPNeDJ4npAWTDfNbGqJoEMincdiYob%2BM8gndn%2B%2BzZZvtmtJd4Y0ZDB3ivM03p5WucvyXXEGW9zjpeGs50benYbDoA%2BSLgAJcZL1NgpPXxl3uwfThS2LPdKBFiu8pPuf3AlRfCxwfEp9XZpDQy1ezgePs2aIvddmUPthJelktJcWQopzVkmZTfGijM9xHNDaUE99sPLxiKup31tBzzrwJKSoxYCnUP4hpl9Prk1Y02tufZQgS2DA4WROpwBEakgq6k1ISKsQWDvq%2F%2BQoDPuhCruDWHKNOpcpCYrXl2r98dpYrib%2F5y8%2FAnzrGybGvk3HAXD1c2PrmwnJ3i5Oe2asa8gVELGCmI7DpzEUSn1k0tsFGV6RPnZhaWp0mYdxM0BEH2GBAdW44iXC4%2BBesT2t795YpVggznq%2Boyom56D1UVzRRsGiab8vB9xEWXM86BrKMVdhkor6UhZuaXCONScm%2B8Y3Xu3DSdL3EGbGX6ri7uOpMLzM7K4GOpkB3TkOIRONCcbCnAO885Zz7x06kihEf6v7q77RN4zKin4Y0bljzRyiXz3AL5V9NVHRIEgsNzrqWeRhNJ4gMHz4JPfG0tnfYbv1222lGiGMotGsTNF9UEsDHiPizsN4Omraa4oPtp4XjfPFc8W0cWfkLTT9iz0F1M5gRkFGuDy1QvyVCCzqfjyiOni0kVlBvTkKMxL06D%2Fg42qG&X-Amz-Signature=447254e249d2e5e1f71ef3a5490f54640cd3635db7338e43859d10af5f2cf314",
+        "parentDocument": null,
+        "childDocuments": [],
+        "pages": [
+            {
+                "id": 60375536,
+                "pageIndex": 0,
+                "image": null,
+                "height": 842.0,
+                "width": 595.0,
+                "rotation": 0
+            }
+        ],
+        "ocrConfidence": null,
+        "reviewUrl": "https://app.affinda.com/review/PfnsSPuG?signature=eyJ1c2VyX2lkIjoxMjY4M30:1reDKx:vw5Mem8k0LTW1QLIwOaHeF7jry7AJaRf68pso9tJajs:1reDKx:JNSPC9AUsWgn4EVIlEVfTJHEq5EazKl2dvsD19z0EJE",
+        "validatedDt": null,
+        "isVerified": false,
+        "exportedDt": null,
+        "isExported": false,
+        "createdDt": "2024-02-25T12:10:24.799544Z",
+        "errorDetail": null,
+        "documentType": "resume",
+        "file": "https://affinda-api-data-prod-ap1.s3.amazonaws.com/media/documents/resume_final_aI93Hr2.pdf?versionId=y9F9GhiJb_LpFrQy82OG_OfRlsflUn8e&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAU4IX6YWNJCIVNWYY%2F20240225%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240225T121031Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0yIkgwRgIhANKs4wfB3rgqxl957PaAQCaYi6D4An4saaoZsbDnrO6qAiEA9HvXBOpw%2BXFW2faIdjKSJP%2BZRtAcKbfLT5zg1MP%2FEZAqkgUIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwzMzU1OTQ1NzExNjIiDB01sIW4K%2F%2BeC4E%2FmCrmBKPzgh4AF4qe%2BtpUT0IlqwxiFJ496zM3oRnJF%2BrgBFhLOhI7Uzztw4IWCUwuZJ3TQHRuByWEOzLZg4UGfwGUKrgFqa46ftR0gStMcz0QY7pggowTimoRFwsqWhgUFgycb3URP875asYjVhL2HNxJ8EfUTiy6g6o85tGjMBKZTNae%2F1%2FTnvotVNVT4Q70o9LIdxJbn3derqJLNzP9RgbhiSdXTs2yUmYHznWQOcAFhMNIvxnfAnN52hMMyRG6TRb8VSMNAYhwVzeoCXI2NNuMrhBT3JFM1fewktOsHhVG4chWvhlhCu24TQGZlBSHCrqL6Lf4dTB%2F9PPNeDJ4npAWTDfNbGqJoEMincdiYob%2BM8gndn%2B%2BzZZvtmtJd4Y0ZDB3ivM03p5WucvyXXEGW9zjpeGs50benYbDoA%2BSLgAJcZL1NgpPXxl3uwfThS2LPdKBFiu8pPuf3AlRfCxwfEp9XZpDQy1ezgePs2aIvddmUPthJelktJcWQopzVkmZTfGijM9xHNDaUE99sPLxiKup31tBzzrwJKSoxYCnUP4hpl9Prk1Y02tufZQgS2DA4WROpwBEakgq6k1ISKsQWDvq%2F%2BQoDPuhCruDWHKNOpcpCYrXl2r98dpYrib%2F5y8%2FAnzrGybGvk3HAXD1c2PrmwnJ3i5Oe2asa8gVELGCmI7DpzEUSn1k0tsFGV6RPnZhaWp0mYdxM0BEH2GBAdW44iXC4%2BBesT2t795YpVggznq%2Boyom56D1UVzRRsGiab8vB9xEWXM86BrKMVdhkor6UhZuaXCONScm%2B8Y3Xu3DSdL3EGbGX6ri7uOpMLzM7K4GOpkB3TkOIRONCcbCnAO885Zz7x06kihEf6v7q77RN4zKin4Y0bljzRyiXz3AL5V9NVHRIEgsNzrqWeRhNJ4gMHz4JPfG0tnfYbv1222lGiGMotGsTNF9UEsDHiPizsN4Omraa4oPtp4XjfPFc8W0cWfkLTT9iz0F1M5gRkFGuDy1QvyVCCzqfjyiOni0kVlBvTkKMxL06D%2Fg42qG&X-Amz-Signature=447254e249d2e5e1f71ef3a5490f54640cd3635db7338e43859d10af5f2cf314",
+        "regionBias": {
+            "country": null,
+            "countries": null,
+            "squareCoordinates": null
+        }
+    },
+    "error": {
+        "errorCode": null,
+        "errorDetail": null
+    }
+}

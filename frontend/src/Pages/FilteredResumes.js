@@ -2,20 +2,43 @@ import * as React from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Typography, Box, Avatar, Link, Button, Grid } from '@mui/material';
 import { blue } from '@mui/material/colors';
 import Divider from '@mui/material/Divider';
+import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import client from '../api';
+import Details from '../Components/Details';
+import CircularProgress from '@mui/material/CircularProgress';
 
-
-// Dummy data for the sake of example
-const recommendedProfiles = [
-  { initials: 'PS', name: 'Prabhat Singh', email: 'olivia@untitledui.com', score: 100, link: '#' },
-  // ... other recommended profiles
-];
-
-const nonRecommendedProfiles = [
-  { initials: 'CW', name: 'Candice Wu', email: 'candice@gmail.com', score: 69, link: '#' },
-  // ... other non-recommended profiles
-];
 
 const FilteredResumes = () => {
+  const { jobid } = useParams();
+  const userToken = localStorage.getItem('userToken');
+  const [profiles, setProfiles] = useState([
+  ]);
+  const [loading, setLoading] = useState(true);
+  const getFilteredResumes = async () => {
+    try{
+      const config = {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${userToken}`,
+        },
+      }
+      const { data } = await client.post('/api/score/', {
+        job_id: jobid
+      } ,config)
+      // iterate on all values of data and convert the description to json object
+      data.forEach((profile) => {
+        profile.description = JSON.parse(profile.description);
+      })
+      console.log(data);
+      setProfiles(data);
+    } catch(error){
+      console.log("Could not fetch");
+    }
+  }
+  useEffect(() => {
+    getFilteredResumes();
+  }, [])
   return (
     <Box sx={{ overflow: 'hidden', marginTop: '80px', padding: '1rem 5rem 0 5rem' }}>
       <Typography variant="h5"  component="div">
@@ -39,24 +62,8 @@ const FilteredResumes = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {recommendedProfiles.map((profile) => (
-              <TableRow
-                key={profile.name}
-                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-              >
-                <TableCell component="th" scope="row">
-                    <Grid gap={2} container>
-                        <Avatar sx={{ bgcolor: blue[500] }}>{profile.initials}</Avatar>
-                        <Grid item flexDirection='column'>
-                            {profile.name}
-                            {profile.email}
-                        </Grid>
-                  </Grid>
-                </TableCell>
-                <TableCell align="right">{profile.score}</TableCell>
-                <TableCell align="right"><Link href={profile.link}>Link</Link></TableCell>
-                <TableCell align="right"><Button variant="text">View Details</Button></TableCell>
-              </TableRow>
+            {profiles.map((profile) => (
+              <Details profile={profile} />
             ))}
           </TableBody>
         </Table>

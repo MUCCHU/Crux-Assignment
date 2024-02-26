@@ -14,4 +14,5 @@ urlpatterns = [
     path('signin/', signin, name='signin'),
     path('signup/', signup, name='signup'),
     path('verify/', get_user, name='verify'),
+    path('score/', run_task, name='score')
 ]

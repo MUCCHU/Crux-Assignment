@@ -1,18 +1,20 @@
 from rest_framework import serializers
-from .models import Resume, Skill, JobPosting
-from django.contrib.auth.models import User
+from .models import Resume, JobPosting
+from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password
+
+User = get_user_model()
 
 class ResumeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resume
-        fields = '__all__'
+        fields = ['id','file', 'score', 'description']
 
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
     class Meta:
         model = User
-        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password']
+        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password', 'type']
     # def validate_password(self, value):
     #     validate_password(value)
     #     return value
@@ -21,14 +23,11 @@ class UserSerializer(serializers.ModelSerializer):
         user = User.objects.create_user(**validated_data)
         return user
 
-class SkillSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Skill
-        fields = ['id', 'name']
 
 class JobPostingSerializer(serializers.ModelSerializer):
-    required_skills = SkillSerializer(many=True, read_only=True)
+
 
     class Meta:
         model = JobPosting
-        fields = ['id', 'title', 'description', 'required_skills', 'posted_by']
+        fields = ['id', 'title', 'description']
+
